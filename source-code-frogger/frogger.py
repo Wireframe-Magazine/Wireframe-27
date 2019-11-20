@@ -1,5 +1,4 @@
 # Frogger
-import pgzrun
 
 frog = Actor('frog1', center=(400, 580))
 frog.direction = frog.delay = 0
@@ -62,5 +61,3 @@ def frogMove(x,y,d):
     frog.image = "frog2"
     frog.delay = 1
     frog.angle = frog.direction = d
-    
-pgzrun.go()
